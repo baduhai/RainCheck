@@ -17,7 +17,7 @@ def read_242_file(filename):
 def main():
     # Verifica se um nome de arquivo foi fornecido como argumento de linha de comando
     if len(sys.argv) < 2:
-        print("Uso: program.py arquivo_fonte.242")
+        print("Uso: program.py arquivo_fonte[.242]")
         return
     
     # Obtém o nome do arquivo do argumento da linha de comando
