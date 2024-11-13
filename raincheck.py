@@ -1,7 +1,7 @@
 import os
 import sys
 
-def read_242_file(filename):
+def fileReader(filename):
     # Adiciona a extensão '.242' se não estiver presente
     if not filename.endswith(".242"):
         filename += ".242"
@@ -23,7 +23,7 @@ def main():
     # Obtém o nome do arquivo do argumento da linha de comando
     filename = sys.argv[1]
     # Chama a função de leitura do arquivo
-    content = read_242_file(filename)
+    content = fileReader(filename)
     
     # Exibe o conteúdo do arquivo ou uma mensagem de erro
     if content is not None:
